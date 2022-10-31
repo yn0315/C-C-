@@ -1,0 +1,4 @@
+﻿  ex02.cpp
+C:\Users\16\source\repos\ConsoleApplicationyw\ConsoleApplicationyw\ex02.cpp(159,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\16\source\repos\ConsoleApplicationyw\ConsoleApplicationyw\ex02.cpp(160,16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  ConsoleApplicationyw.vcxproj -> C:\Users\16\source\repos\ConsoleApplicationyw\x64\Debug\ConsoleApplicationyw.exe
