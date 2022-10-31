@@ -21,12 +21,12 @@ int main()
 	printf("%.2f\n", 3.14159);
 	//f앞에 숫자만큼 소수점 처리
 	// 2자리까지 표현 후 절삭
-	
+
 	//%c 1글자 출력
-	printf("%c %c %c\n", 'a','b','c');
+	printf("%c %c %c\n", 'a', 'b', 'c');
 	//c는 char를 뜻
 	//한 글자 문자
-	
+
 	//%s 문자열출력
 	printf("%s\n", "안녕하세요");
 	//str 문자열""로 감싸준다.
@@ -35,13 +35,13 @@ int main()
 	컴퓨터 내부 부품
 	RAM 메모리
 	프로세스 실행될 때 오가는 필요한 정보를 임시 저장하는 공간
-	
+
 	개발자가 c언어에서 변수를 통해 메모리에 접근하여 정보를 저장하거나 가져온다(참조)
 
 	변수 : 어떤 특정 값(데이터)를 담는 공간
 	이 공간은 메모리의 어딘가에 알아서 할당
 	어떤 데이터나 0,1로 변환 표현
-	
+
 	*/
 
 	//변수의 선언방법
@@ -57,7 +57,7 @@ int main()
 	//대문자 소문자 숫자 언더스코어(_)
 	//숫자부터 X
 	//키워드(예약어) X
-	
+
 	/*같은 이름의 변수 두개 X
 	x = 10
 	x = 5*/
@@ -113,13 +113,14 @@ int main()
 
 	//bool 진리값 : 1바이트 자료형에 담는다.
 	//bool 7비트는 낭비됨
-	
+
 
 	//printf("%d %d %d %d\n", sizeof(int), sizeof(char), sizeof(float), sizeof(double));
-	
+
 	/*int d; char n; float c; double w;
 	printf("%d %d %d %d\n", sizeof(d), sizeof(n), sizeof(c), sizeof(w));*/
 
+	/*
 	printf("+=================================================================+\n");
 	int math = 90, korean = 95, english = 96;
 	int sum = math + korean + english; // 세 점수의 합을 sum 에 저장한다.
@@ -133,14 +134,10 @@ int main()
 
 	printf("%c %d\n", '2', '2');
 	printf("%c %d\n", 50, 50);
+	*/
+	/*char a = 'A';
+	printf("%c의 ASKII 값은 %d\n", a, a);*/
 
-	char a = 'A';
-	printf("%c의 ASKII 값은 %d\n", a, a);
-
-
-
-
-	
 	//int s = 5;
 	//int b = 3;
 	//int add = s + b; //덧셈
@@ -155,7 +152,7 @@ int main()
 	//printf("%d / %d = %d\n", s, b, div);
 	//printf("%d %% %d = %d\n", s, b, mod);
 
-
+	/*
 	float s = 9.8;
 	float b = 3.14;
 	float add = s + b; //덧셈
@@ -168,14 +165,56 @@ int main()
 	printf("%f - %f = %f\n", s, b, sub);
 	printf("%f * %f = %f\n", s, b, mul);
 	printf("%f / %f = %f\n", s, b, div);
-	
 
+	//변수 연산
+	//증감 연산자 ++
+	//증감 연산자 --
+	//앞에 쓰이는 경우 뒤에 쓰이는 경우
+	//전치증가연산
+	//후치증가연산
+	/*
+	int a = 5;
+	int b;
+	b = ++a;
+	printf("===전치증가연산=======\n")
+	printf("a = %d\n", a);
+	printf("b = %d\n", b);
 
+	b = a++;
+	printf("===전치증가연산=======\n")
+	printf("a = %d\n", a);
+	printf("b = %d\n", b);
+	*/
 
+	//논리 연산자
+	//and or not
+	//&&  ||  !
 
+	/*
+	int a = 3;
+	bool p = a >= 1 && a <= 10; //a가 1이상이고 10이하다
+	bool q = a == 3 || a == 7; //a가 3이거나 7이다.
+	bool r = !q; //q가 아니다 -> a가 3도 아니고 7도 아니다.
+	printf(" %d\n", p);
+	printf(" %d\n", q);
+	printf(" %d\n", r);
 
+	*/
+	//사용자 입력
+	//scanf()
+	//scanf() 괄호안에 사용자 입력값을 기재
 
+	/*int a;
+	int b;
+	scanf("%d%d", &a, &b);
+	printf("%d+%d = %d\n", a, b, a + b);*/
 
+	//scanf함수의 서식지정자
+	//double %lf
+	//
+	int a;
+	int b;
 
+	scanf("%d %d", &a, &b);
 
 }
