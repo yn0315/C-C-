@@ -241,33 +241,46 @@ int main() {
 		printf("%d", pow);*/
 
 		//제어문 문제
-	int n;
+	/*int n;
 	printf("시험점수 입력: ");
 	scanf("%d", &n);
-
-	if (90 <= n <= 100)
+	if (n >100 || n <0)
+	{
+		printf("잘못입력함");
+	}
+	else if (90 <= n)
 	{
 		printf("A");
 	}
-	else if (80 <= n <= 89)
+	else if (80 <= n)
 	{
 		printf("B");
 	}
-	else if (70 <= n <= 79)
+	else if (70 <= n)
 	{
 		printf("C");
 	}
-	else if (60 <= n <= 69)
+	else if (60 <= n)
 	{
 		printf("D");
 	}
-	else if (0 <= n <= 59)
+	else
 	{
 		printf("F");
 	}
-	else
+	*/
+	
+	int number = 0;
+	printf("자연수 입력: ");
+	scanf("%d", &number);
+	
+	for (int i = 1; i <= number; i++)
 	{
-		printf("잘못 입력하셨습니다.");
+		if (number % i == 0)
+		{
+			printf("%d ",i);
+		}
 	}
+
 
 }
