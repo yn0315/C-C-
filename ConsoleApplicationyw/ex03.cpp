@@ -270,7 +270,7 @@ int main() {
 	}
 	*/
 	
-	int number = 0;
+	/*int number = 0;
 	printf("자연수 입력: ");
 	scanf("%d", &number);
 	
@@ -280,7 +280,87 @@ int main() {
 		{
 			printf("%d ",i);
 		}
+
+
+	}*/
+
+	/*int n;
+	printf("자연수 입력 : ");
+	scanf("%d", &n);
+	
+	for (int i = 1; i <= n; i++)
+	{
+		if (i % 10 == 3 || i % 10 == 6 || i % 10 == 9)
+		{
+			printf("*");
+		}
+		else
+		{
+			printf("%d ", i);
+		}
+	}*/
+	/*
+	int n;
+	printf("자연수 입력 : ");
+	scanf("%d", &n);
+
+	for (int i = 1; i <= n; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			printf("%d ", j);
+		}
+		printf("\n");
+
+	}*/
+
+	/*
+	int num;
+	printf("자연수 입력 : ");
+	scanf("%d", &num);
+
+	for (int i = num; i >= 1; i--)
+	{
+		for (int j = i; j >= 1; j--)
+		{
+			printf("%d ", j);
+		}
+		printf("\n");
+
 	}
+	*/
+	
+	int no;
+	printf("자연수 입력 : ");
+	scanf("%d", &no);
+
+	for (int i = no; i >= 1; i--)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			printf("%d ", j);
+		}
+		printf("\n");
+
+	}
+
+	int num;
+	printf("자연수 입력 : ");
+	scanf("%d", &num);
+	
+	for (int i = 1; i <= num; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{
+			if (j % 2 == 1)
+			{
+				printf("%d", j);
+			}
+
+		}printf("\n");
+	}
+
+
 
 
 }
