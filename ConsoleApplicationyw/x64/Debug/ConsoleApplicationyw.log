@@ -1,6 +1,6 @@
 ﻿  quiz.cpp
-C:\Users\16\source\repos\C-C-\ConsoleApplicationyw\quiz.cpp(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\16\source\repos\C-C-\ConsoleApplicationyw\quiz.cpp(40,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\16\source\repos\C-C-\ConsoleApplicationyw\quiz.cpp(47,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\16\source\repos\C-C-\ConsoleApplicationyw\quiz.cpp(90,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  ConsoleApplicationyw.vcxproj -> C:\Users\16\source\repos\C-C-\x64\Debug\ConsoleApplicationyw.exe
+C:\study\C-C-\ConsoleApplicationyw\quiz.cpp(10,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\study\C-C-\ConsoleApplicationyw\quiz.cpp(42,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\study\C-C-\ConsoleApplicationyw\quiz.cpp(49,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\study\C-C-\ConsoleApplicationyw\quiz.cpp(92,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ConsoleApplicationyw.vcxproj -> C:\study\C-C-\x64\Debug\ConsoleApplicationyw.exe
