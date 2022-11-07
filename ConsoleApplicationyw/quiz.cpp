@@ -87,18 +87,28 @@ int main()
 //      2  5  8
 //		3  6  9
 
-	int two = 0;
+	int number = 0;
 	printf("2차원배열 숫자 입력: ");
-	scanf("%d", &two);
+	scanf("%d", &number);
 
-	for (int i = 1; i <= two; i++)
+	int numbers[100][100] = {}; //여유있게 배열을 만들고
+	int x = 0; //배열 안에 넣을 숫자 변수
+	
+	//배열에 입력
+	for (int i = 0; i < number; i++) //넘버까지 중첩으로 돌려서 
 	{
-		for (int j= 0; j <= two; j++)
-		{
-			printf("%d ", i);
-		}
+		for (int j = 0; j < number; j++)
+			numbers[i][j] = ++x; //[i][j]칸에 x를 선순위 연산해 집어넣는다
 
-		
+	}
+
+	//출력
+	for (int i = 0; i < number; i++) //넘버까지 중첩으로 돌려서
+	{
+		for (int j = 0; j < number; j++)
+		{
+			printf("% d", numbers[j][i]); //[j][i]를 출력하면 1 4 7 순서로 나온다
+		}
 		printf("\n");
 	}
 
